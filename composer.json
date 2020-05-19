@@ -1,0 +1,28 @@
+{
+  "description": "A test package for composer",
+  "keywords": [
+    "test",
+    "composer"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Timothy Bannister"
+    }
+  ],
+  "homepage": "https://esonline.co",
+  "require": {
+    "php": "^7.0",
+    "symfony/console": "~2.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^7.0",
+    "ext-json": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Command\\": "command",
+      "Example\\": "src/Example/"
+    }
+  }
+}

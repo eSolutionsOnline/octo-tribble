@@ -1,0 +1,14 @@
+#!/usr/bin/env php
+<?php
+
+use Command\ExampleCommand;
+use Command\IsIntCommand;
+use Symfony\Component\Console\Application;
+require 'vendor/autoload.php';
+
+$app = new Application('Composer Demo v1.0');
+
+$app->add(new ExampleCommand);
+$app->add(new IsIntCommand);
+
+$app->run();
