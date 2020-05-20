@@ -1,0 +1,7 @@
+/tests/           export-ignore
+/artisan          export-ignore
+/command/         export-ignore
+/README.md        export-ignore
+/.gitignore       export-ignore
+/phpunit.xml      export-ignore
+/.gitattributes   export-ignore
